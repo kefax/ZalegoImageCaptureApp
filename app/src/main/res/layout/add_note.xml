@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+
+    <Button
+        android:id="@+id/btnaddimage"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="0"
+        android:text="Browse Image"
+        android:layout_gravity="center"></Button>
+    <ImageView
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:src="@drawable/ic_launcher"
+        />
+    <ImageView
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:src="@drawable/tulipsa"
+        />
+    <ImageView
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:src="@drawable/lighthouseb"
+        />
+    <ImageView
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:src="@drawable/user"
+        />
+    <EditText
+        android:id="@+id/titleEdit"
+        android:textStyle="bold"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:hint="" />
+    <EditText
+        android:id="@+id/noteEdit"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:hint=""
+        android:textStyle="bold"
+        android:paddingTop="20dp"
+        android:inputType="textMultiLine" />
+
+    <EditText
+        android:id="@+id/seatNumber"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:hint=""
+        android:textStyle="bold"
+        android:paddingTop="20dp"
+        android:inputType="textMultiLine" />
+    <EditText
+        android:id="@+id/destination"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:hint=""
+        android:textStyle="bold"
+        android:paddingTop="20dp"
+        android:inputType="textMultiLine" />
+    <EditText
+        android:id="@+id/depatureTime"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:hint=""
+        android:paddingTop="20dp"
+        android:textStyle="bold"
+        android:inputType="textMultiLine" />
+    <EditText
+        android:id="@+id/fare"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:hint=""
+        android:textStyle="bold"
+        android:paddingTop="20dp"
+        android:inputType="textMultiLine" />
+
+</LinearLayout>

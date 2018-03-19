@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+package="com.example.douglas.zalegoimagecaptureapp"
+android:versionCode="1"
+android:versionName="1.0" >
+
+<uses-sdk
+    android:minSdkVersion="8"
+    android:targetSdkVersion="22" />
+
+<application
+    android:allowBackup="true"
+    android:label="Zalego Image App"
+    android:theme="@style/AppTheme" >
+    <activity
+        android:name="com.example.douglas.zalegoimagecaptureapp.SplashScreen"
+        android:label="Zaleg" >
+        <intent-filter>
+            <action android:name="android.intent.action.MAIN" />
+
+            <category android:name="android.intent.category.LAUNCHER" />
+        </intent-filter>
+    </activity>
+    <activity
+        android:name=".SignUpActivity"
+        />
+    <activity
+        android:name=".About"
+        />
+    <activity
+        android:name=".MainActivity"
+        />
+    <activity
+        android:name=".Help"
+        />
+
+    <activity
+        android:name=".MMainActivity"
+        />
+    <activity
+        android:name=".MainActivity2"
+        />
+    <activity
+        android:name=".ViewNote"
+        />
+</application>
+
+</manifest>

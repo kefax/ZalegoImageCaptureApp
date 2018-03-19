@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:padding="5dp"
+
+    android:background="#1eb207"
+    tools:context=".ViewNote">
+
+    <TextView
+        android:id="@+id/Yourtitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Image Name: "
+        android:textColor="#ffffff"
+        android:textSize="23dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/TitleText"
+        android:backgroundTint="#06bb15"
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@+id/Yourtitle"
+        android:paddingBottom="10dp"
+        android:textColor="#ffffff"
+        android:textSize="23dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/YourNotes"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/TitleText"
+        android:text="Image Details "
+        android:textColor="#ffffff"
+        android:textSize="23dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/NoteText"
+        android:backgroundTint="#06bb15"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/TitleText"
+        android:textColor="#ffffff"
+        android:textSize="23dp"
+        android:layout_toRightOf="@+id/YourNotes"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/seatNo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/NoteText"
+        android:text="Image Size : "
+        android:textColor="#ffffff"
+        android:textSize="23dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/seatText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@+id/seatNo"
+        android:layout_below="@+id/NoteText"
+        android:paddingBottom="10dp"
+        android:textColor="#ffffff"
+        android:backgroundTint="#06bb15"
+        android:textSize="23dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/dest"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/seatText"
+        android:text="Date of Capture: "
+        android:textColor="#ffffff"
+        android:textSize="23dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/destText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/seatText"
+        android:textColor="#ffffff"
+        android:textSize="23dp"
+        android:backgroundTint="#06bb15"
+        android:layout_toRightOf="@+id/dest"
+        android:textStyle="bold" />
+    <TextView
+        android:id="@+id/dTime"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/destText"
+        android:textColor="#ffffff"
+        android:textSize="23dp"
+        android:text="Time of Capture: "
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/dTimeText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@+id/dTime"
+        android:layout_below="@+id/destText"
+        android:textColor="#ffffff"
+        android:textSize="23dp"
+        android:backgroundTint="#06bb15"
+        android:paddingBottom="10dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/fareK"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/dTimeText"
+        android:textColor="#ffffff"
+        android:textSize="23dp"
+        android:text="Image List Below: "
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/fareKText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/dTimeText"
+        android:textColor="#ffffff"
+        android:textSize="23dp"
+        android:backgroundTint="#06bb15"
+        android:layout_toRightOf="@+id/fareK"
+        android:textStyle="bold" />
+
+
+
+</RelativeLayout>
